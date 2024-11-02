@@ -17,28 +17,12 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ActivityTime"
+            android:name=".Info"
+            android:label="Date/time info"
             android:exported="true">
             <intent-filter>
+                <action android:name="ru.startandroid.intent.action.showdate" />
                 <action android:name="ru.startandroid.intent.action.showtime" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".ActivityDate"
-            android:label="Date basic"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="ru.startandroid.intent.action.showdate" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".ActivityDateEx"
-            android:label="Date extended"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="ru.startandroid.intent.action.showdate" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
